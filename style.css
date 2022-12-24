@@ -340,6 +340,12 @@ justify-content: space-around;
     
      
  }
+ #textt{
+
+    transform: translate(10px,-350px);
+    color:white;
+    font-size: 15px;
+ }
  #par{
 margin-right: 20px;
 
