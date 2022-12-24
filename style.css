@@ -279,11 +279,12 @@ justify-content: space-around;
 
 
 
-  @media only screen and (max-width: 550px){
+  @media only screen and (max-width: 600px){
 
     #nav{
         align-items: center;
     display:flex;
+    
     justify-content: space-around;
     
       
@@ -332,12 +333,22 @@ justify-content: space-around;
 
 #box{
    
-     padding:20px 20px;
+     padding:20px 10px;
      height:370px;
      margin-top: 150px;
     
     
      
+ }
+ #textt{
+
+    transform: translate(10px,-350px);
+    color:white;
+    font-size: 15px;
+ }
+ #par{
+margin-right: 20px;
+
  }
  #logo{
     padding-top: 10px;
@@ -394,6 +405,10 @@ justify-content: space-around;
 }
 #paragraph-2{
     padding:5px 5px 5px 5px;
+}
+#last{
+width:400px;
+
 }
   }
  
