@@ -77,6 +77,9 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
     }
+    #item-2 a{
+
+    }
 
     
     .apple{
@@ -86,7 +89,10 @@ justify-content: space-around;
     }
     #img-2{
         color:white;
-        font-size: 20px;
+        font-size: 15px;
+        text-align:bottom;
+        width:100%;
+
        background-image: url("images/Rectangle 2.png" 
        
         ) ;
@@ -108,6 +114,10 @@ justify-content: space-around;
     display: flex;
  
    
+   }
+   #img-2 span{
+    color:whitesmoke;
+    font-weight: bolder;
    }
    .sec p{
     padding:0px 50px 0px 40px;
@@ -148,21 +158,24 @@ justify-content: space-around;
     margin:0px;
     width:700px;
     height:550px;
+    display: block;
 
 }
 #img-3{
     position:relative;
-    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
     
    
     
 }
 #textt{
     
-    background-attachment: fixed;
+    
     position: absolute;
     
-    font-size: 35px;
+    font-size: 15px;
   
     
     
@@ -291,20 +304,22 @@ position:block;
     width:100%;
     padding-top: 90px;
   }
-  .item a {
+  .item a ,#item-2 a{
     text-decoration: none;
     color:black;
     text-shadow: 5px;
     transition: transform 0.5s;
     display:inline-block;
   }
-  .item a:hover{
+  .item a:hover,#item-2 a:hover{
     color:rgb(165, 42, 42);
     transform:translateY(-5px);
     
   }
 
-
+#text-3 h3 span ,#text-4 h3 span{
+    color:red;
+}
 
 
 
@@ -314,6 +329,9 @@ position:block;
         height: 100%;
         width:100%;
         
+    }
+    #img-2{
+        font-size: 10px;
     }
     #nav{
         align-items: center;
@@ -376,14 +394,9 @@ position:block;
     
      
  }
- #textt{
-
-    transform: translate(10px,-350px);
-    color:white;
-    font-size: 15px;
- }
+ 
  #par{
-margin-right: 20px;
+margin-right: 0px;
 
  }
  #logo{
@@ -420,7 +433,7 @@ margin-right: 20px;
  }
  #text-4{
     padding:5px 5px 5px 5px;
-    background-color: none;
+    
  }
  #sec-4 h3{
     padding:5px 5px 5px 5px;
@@ -430,9 +443,14 @@ margin-right: 20px;
     padding:5px 5px 5px 5px;
 
  }
+ #sec-4{
+    display:flex;
+    flex-direction:column;
+
+ }
 #imagesss{
-    width:250px;
-    height:500px;
+    width:100%;
+    height:100%;
 }
 #img-1{
     height:auto;
